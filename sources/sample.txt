@@ -1,0 +1,4 @@
+line1
+line2
+this line is replaced for line 3.
+line4

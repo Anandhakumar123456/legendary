@@ -45,6 +45,7 @@ iio.imwrite("g4g.jpg", img)
 
 """
 
+
 f=open("boy.jpg","rb")
 n=open("boy4.jpg","wb")
 
