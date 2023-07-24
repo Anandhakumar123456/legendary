@@ -1,7 +1,7 @@
 #Date: 18-07-2023
 #Day : Tuesday
 
-#Error Handling:
+#Error Handling or Exception Handling:
 
 def odd_even(i):
     try:
@@ -29,7 +29,7 @@ def odd_even(i):
         return "Index Error"
     except TypeError: #it returns Type error only.
         return "Type Error Occured."
-    except Exception as err_msg:  #it is all errors in this type.
+    except Exception as err_msg:  #it is all errors in this Exception class type.
         return err_msg
 
 print(odd_even(5))

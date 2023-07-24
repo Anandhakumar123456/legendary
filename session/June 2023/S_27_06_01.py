@@ -44,6 +44,8 @@ print(l[2])       #1234
 print(l[1][1])    #3
 print(l[0][3])    #l
 
+#Removing first and last elements in the list using another variable for eg.  rem=l[1:-1]  //This case is 1 represent the first element and -1 represent the last element.
+
 
 
 #------------------------------------------

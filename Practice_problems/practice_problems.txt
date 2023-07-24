@@ -1,0 +1,50 @@
+1) Get the input n from the user and print the pattern shown as below.
+
+
+Sample Input:
+    n = 5
+Sample output:
+    *
+    * * 
+    * * * 
+    * * * * 
+    * * * * *
+
+2) Get the input n from the user and print the pattern shown as below.
+
+Sample Input:
+    n = 5
+Sample output:
+    * * * * *   
+    * * * *
+    * * *
+    * *
+    *
+3) Get the input n from the user and print the pattern shown as below.
+Sample Input:
+    n = 5
+Sample output:
+            *
+          * *  
+        * * *
+      * * * *
+    * * * * * 
+
+4) Get the input n from the user and print the pattern shown as below.
+Sample Input:
+    n = 5
+Sample output:
+
+    * * * * *
+      * * * *
+        * * *
+          * *
+            * 
+
+5) Get the input as "n" from the user and check for the vowels in given string "n" and print the vowels counts in dictionary. 
+
+n = user input 
+
+Eg: 
+    Input : "python programming"
+    output: {"a":1,"i":1,"o":2}
