@@ -34,11 +34,11 @@ def find_temp():
         print("The temperature is invalid because it is below absolute zero.")
     elif temp==-273.15:
         print("The temperature is absolute 0.")    
-    elif temp in range(float(-273.15,0)) :
+    elif -273.15<= temp < 0 :
         print("The temperature is below freezing.")
     elif temp==0:
         print("The temperature is at the freezing point.") 
-    elif temp in range(0,100) :
+    elif 0 <=temp < 100:
         print("The temperature is in the Normal range.")        
     elif temp==100:
         print("The temperature is at the Boiling point.") 
@@ -153,6 +153,7 @@ def rotate_list(lst):
     return lst    
 
 rotated_list=rotate_list(lst)
+
 #print(rotated_list)
 
 
